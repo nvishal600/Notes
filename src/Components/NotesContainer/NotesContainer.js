@@ -19,7 +19,7 @@ function NotesContainer(props) {
   return (
     <>
       <div className="note-container ">
-        <h1 style={{ marginBottom: "20px" }}>Notes1</h1>
+        <h1 style={{ marginBottom: "20px" }}>Notes2</h1>
         <div className="note-container_notes custom-scroll">
           {notes.length > 0 ? (
             notes.map((value, index) => {
